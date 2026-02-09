@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeCup - Cita Rasa Kopi Asli Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+</head>
+<body>
+    <!-- Header & Navigasi -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">
+                    <i class="fas fa-coffee"></i>
+                    <span>CoffeCup</span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#products">Produk</a></li>
+                    <li><a href="#testimonial">Testimoni</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Cita Rasa Kopi Terbaik dalam Setiap Cup</h1>
+                <p>Kopi berkualitas tinggi dengan racikan spesial untuk menemani hari-hari Anda. Diproduksi dengan cinta oleh UMKM lokal Indonesia.</p>
+                <a href="#products" class="btn-primary">Lihat Produk Kami</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Kopi Cup">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Kami</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Kopi Cup UMKM adalah usaha kecil menengah yang berdedikasi untuk menghadirkan pengalaman minum kopi terbaik dengan harga terjangkau. Kami menggunakan biji kopi pilihan dari petani lokal Indonesia.</p>
+                    <p>Dengan komitmen pada kualitas dan keberlanjutan, setiap cup kopi kami dibuat dengan hati untuk memberikan cita rasa yang autentik dan memuaskan.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <h3>Bahan Alami</h3>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <h3>Dibuat dengan Cinta</h3>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-truck"></i>
+                            <h3>Pengiriman Cepat</h3>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <h3>Kualitas Terjamin</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Tentang Kopi Cup UMKM">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produk -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Produk Kami</h2>
+            <p class="section-subtitle">Pilihan kopi terbaik untuk berbagai selera</p>
+            
+            <div class="product-grid">
+                <!-- Produk 1: Kopi Arabika Gula Aren -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1568649929103-28ffbefaca1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Kopi Arabika Gula Aren">
+                    </div>
+                    <div class="product-info">
+                        <h3>Arabika Gula Aren</h3>
+                        <p>Kopi arabika dengan campuran gula aren asli memberikan rasa manis alami dan aroma yang khas.</p>
+                        <div class="product-price">Rp 15.000<span>/cup</span></div>
+                        <button class="btn-order" data-product="Arabika Gula Aren" data-price="15000">Pesan Sekarang</button>
+                    </div>
+                </div>
+                
+                <!-- Produk 2: Americano -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1551030173-122aabc4489c?ixlib=rb-1.2.1&auto=format&fit=crop&w-600&q=80" alt="Americano">
+                    </div>
+                    <div class="product-info">
+                        <h3>Americano</h3>
+                        <p>Espresso dengan tambahan air panas, memberikan rasa kopi yang kuat dan pure tanpa campuran.</p>
+                        <div class="product-price">Rp 12.000<span>/cup</span></div>
+                        <button class="btn-order" data-product="Americano" data-price="12000">Pesan Sekarang</button>
+                    </div>
+                </div>
+                
+                <!-- Produk 3: Kopi Susu -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1561047029-3000c68339ca?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Kopi Susu">
+                    </div>
+                    <div class="product-info">
+                        <h3>Kopi Susu</h3>
+                        <p>Perpaduan sempurna antara kopi pilihan dengan susu creamy, cocok untuk pecinta kopi dengan rasa lembut.</p>
+                        <div class="product-price">Rp 18.000<span>/cup</span></div>
+                        <button class="btn-order" data-product="Kopi Susu" data-price="18000">Pesan Sekarang</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="order-instruction">
+                <h3>Cara Pemesanan</h3>
+                <ol>
+                    <li>Klik tombol "Pesan Sekarang" pada produk yang diinginkan</li>
+                    <li>Isi formulir pemesanan yang muncul</li>
+                    <li>Kami akan menghubungi Anda untuk konfirmasi pesanan</li>
+                    <li>Pesanan akan dikirim ke alamat Anda atau bisa diambil di lokasi kami</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section id="testimonial" class="testimonial">
+        <div class="container">
+            <h2 class="section-title">Testimoni Pelanggan</h2>
+            <p class="section-subtitle">Apa kata mereka tentang CoffeCup</p>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>"Arabika Gula Aren-nya benar-benar spesial! Rasa manis gula arennya alami sekali."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Andra Rahman</h4>
+                        <p>Freelancer</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>"Americano-nya kuat dan pure, persis seperti yang saya cari untuk teman kerja lembur."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Andra Rahman</h4>
+                        <p>Freelancer</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>"Kopi Susunya creamy dan tidak terlalu pahit, cocok banget buat saya yang tidak suka kopi terlalu kuat."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <h4>Gemilang Samudera</h4>
+                        <p>Mahasiswa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Pemesanan Modal -->
+    <div class="modal-overlay" id="orderModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Form Pemesanan</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="orderForm">
+                    <div class="form-group">
+                        <label for="productName">Produk</label>
+                        <input type="text" id="productName" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="productPrice">Harga per cup</label>
+                        <input type="text" id="productPrice" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="quantity">Jumlah (cup)</label>
+                        <input type="number" id="quantity" min="1" max="50" value="1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerName">Nama Lengkap</label>
+                        <input type="text" id="customerName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerPhone">Nomor WhatsApp</label>
+                        <input type="tel" id="customerPhone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerAddress">Alamat Pengiriman</label>
+                        <textarea id="customerAddress" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="deliveryOption">Metode Pengambilan</label>
+                        <select id="deliveryOption" required>
+                            <option value="">Pilih opsi</option>
+                            <option value="pickup">Ambil di tempat</option>
+                            <option value="delivery">Antar ke alamat</option>
+                        </select>
+                    </div>
+                    <div class="order-summary">
+                        <h4>Ringkasan Pesanan</h4>
+                        <div class="summary-item">
+                            <span>Total Item:</span>
+                            <span id="summaryQuantity">1 cup</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Total Harga:</span>
+                            <span id="summaryTotal">Rp 15.000</span>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn-submit">Kirim Pesanan</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kontak & Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>CoffeCup</h3>
+                    <p>Menghadirkan cita rasa kopi terbaik dalam setiap cup untuk menemani hari-hari Anda.</p>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Jl. Tgk Glee Inang, Lampriet, Aceh</p>
+                        <p><i class="fas fa-phone"></i> 0821-6113-5392</p>
+                        <p><i class="fas fa-envelope"></i> info@kopicupumkm.com</p>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Menu Cepat</h3>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#products">Produk</a></li>
+                        <li><a href="#testimonial">Testimoni</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Ikuti Kami</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="https://wa.me/6282161135392" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                    <p>Jam Operasional: 08.00 - 21.00 WIB</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Coffecup. Hak Cipta Dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tombol WhatsApp -->
+    <a href="https://wa.me/6282161135392?text=Halo,%20saya%20ingin%20memesan%20kopi%20dari%20Kopi%20Cup%20UMKM" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
